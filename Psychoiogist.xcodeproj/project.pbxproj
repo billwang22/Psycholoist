@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC0FD5D1D530CD30053EE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD5C1D530CD30053EE73 /* AppDelegate.swift */; };
+		2FC0FD5F1D530CD30053EE73 /* PsycholoistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD5E1D530CD30053EE73 /* PsycholoistViewController.swift */; };
+		2FC0FD641D530CD30053EE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0FD631D530CD30053EE73 /* Assets.xcassets */; };
+		2FC0FD671D530CD30053EE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0FD651D530CD30053EE73 /* LaunchScreen.storyboard */; };
+		2FC0FD781D5325400053EE73 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD761D5325400053EE73 /* HappinessViewController.swift */; };
+		2FC0FD791D5325400053EE73 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD771D5325400053EE73 /* FaceView.swift */; };
+		2FC0FD7B1D5327C50053EE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0FD7A1D5327C50053EE73 /* Main.storyboard */; };
+		2FC0FD7D1D5475C60053EE73 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD7C1D5475C60053EE73 /* TextViewController.swift */; };
+		2FC0FD7F1D54791A0053EE73 /* DiagnosticHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0FD7E1D54791A0053EE73 /* DiagnosticHappinessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC0FD591D530CD30053EE73 /* Psychoiogist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychoiogist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC0FD5C1D530CD30053EE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC0FD5E1D530CD30053EE73 /* PsycholoistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsycholoistViewController.swift; sourceTree = "<group>"; };
+		2FC0FD631D530CD30053EE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC0FD661D530CD30053EE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC0FD681D530CD30053EE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC0FD761D5325400053EE73 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		2FC0FD771D5325400053EE73 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		2FC0FD7A1D5327C50053EE73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2FC0FD7C1D5475C60053EE73 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		2FC0FD7E1D54791A0053EE73 /* DiagnosticHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticHappinessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC0FD561D530CD30053EE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC0FD501D530CD30053EE73 = {
+			isa = PBXGroup;
+			children = (
+				2FC0FD5B1D530CD30053EE73 /* Psychoiogist */,
+				2FC0FD5A1D530CD30053EE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC0FD5A1D530CD30053EE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0FD591D530CD30053EE73 /* Psychoiogist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC0FD5B1D530CD30053EE73 /* Psychoiogist */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0FD5C1D530CD30053EE73 /* AppDelegate.swift */,
+				2FC0FD7C1D5475C60053EE73 /* TextViewController.swift */,
+				2FC0FD5E1D530CD30053EE73 /* PsycholoistViewController.swift */,
+				2FC0FD761D5325400053EE73 /* HappinessViewController.swift */,
+				2FC0FD7E1D54791A0053EE73 /* DiagnosticHappinessViewController.swift */,
+				2FC0FD771D5325400053EE73 /* FaceView.swift */,
+				2FC0FD7A1D5327C50053EE73 /* Main.storyboard */,
+				2FC0FD631D530CD30053EE73 /* Assets.xcassets */,
+				2FC0FD651D530CD30053EE73 /* LaunchScreen.storyboard */,
+				2FC0FD681D530CD30053EE73 /* Info.plist */,
+			);
+			path = Psychoiogist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC0FD581D530CD30053EE73 /* Psychoiogist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC0FD6B1D530CD30053EE73 /* Build configuration list for PBXNativeTarget "Psychoiogist" */;
+			buildPhases = (
+				2FC0FD551D530CD30053EE73 /* Sources */,
+				2FC0FD561D530CD30053EE73 /* Frameworks */,
+				2FC0FD571D530CD30053EE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Psychoiogist;
+			productName = Psychoiogist;
+			productReference = 2FC0FD591D530CD30053EE73 /* Psychoiogist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC0FD511D530CD30053EE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lwang;
+				TargetAttributes = {
+					2FC0FD581D530CD30053EE73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C895WGU88S;
+					};
+				};
+			};
+			buildConfigurationList = 2FC0FD541D530CD30053EE73 /* Build configuration list for PBXProject "Psychoiogist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC0FD501D530CD30053EE73;
+			productRefGroup = 2FC0FD5A1D530CD30053EE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC0FD581D530CD30053EE73 /* Psychoiogist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC0FD571D530CD30053EE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0FD7B1D5327C50053EE73 /* Main.storyboard in Resources */,
+				2FC0FD671D530CD30053EE73 /* LaunchScreen.storyboard in Resources */,
+				2FC0FD641D530CD30053EE73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC0FD551D530CD30053EE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0FD7D1D5475C60053EE73 /* TextViewController.swift in Sources */,
+				2FC0FD5F1D530CD30053EE73 /* PsycholoistViewController.swift in Sources */,
+				2FC0FD781D5325400053EE73 /* HappinessViewController.swift in Sources */,
+				2FC0FD5D1D530CD30053EE73 /* AppDelegate.swift in Sources */,
+				2FC0FD791D5325400053EE73 /* FaceView.swift in Sources */,
+				2FC0FD7F1D54791A0053EE73 /* DiagnosticHappinessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FC0FD651D530CD30053EE73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC0FD661D530CD30053EE73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC0FD691D530CD30053EE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC0FD6A1D530CD30053EE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC0FD6C1D530CD30053EE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychoiogist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stanfard.su001.Psychoiogist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC0FD6D1D530CD30053EE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychoiogist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stanfard.su001.Psychoiogist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC0FD541D530CD30053EE73 /* Build configuration list for PBXProject "Psychoiogist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0FD691D530CD30053EE73 /* Debug */,
+				2FC0FD6A1D530CD30053EE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC0FD6B1D530CD30053EE73 /* Build configuration list for PBXNativeTarget "Psychoiogist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0FD6C1D530CD30053EE73 /* Debug */,
+				2FC0FD6D1D530CD30053EE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC0FD511D530CD30053EE73 /* Project object */;
+}
